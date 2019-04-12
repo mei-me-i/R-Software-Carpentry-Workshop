@@ -26,3 +26,5 @@ cats$age <- c(2,3,5)
 levels(cats$coat) <- c(levels(cats$coat), "tortoiseshell")
 newRow <- list("tortoiseshell", 3.3, T, 9)
 cats <- rbind(cats, newRow)
+
+
